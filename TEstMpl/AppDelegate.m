@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "PayPal.h"
+#import "FourButtonViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +16,23 @@
 
 @implementation AppDelegate
 
-
+@synthesize window, navigationController;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //You must call initializeWithAppID:forEnvironment: or initializeWithAppID: before performing any other
+    //action with the library. You must supply your application ID, and you may specify the environment
+    //by passing in ENV_LIVE (default), ENV_SANDBOX, or ENV_NONE (offline demo mode).
+    [PayPal initializeWithAppID:@"APP-80W284485P519543T" forEnvironment:ENV_SANDBOX];
+    
+    
+    //	[PayPal initializeWithAppID:@"your live app id" forEnvironment:ENV_LIVE];
+    //[PayPal initializeWithAppID:@"anything" forEnvironment:ENV_NONE];
+    
+    FourButtonViewController *fbvc = [[FourButtonViewController alloc] init] ;
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:fbvc] ;
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [window addSubview:navigationController.view];
+    [window makeKeyAndVisible];
+
     return YES;
 }
 

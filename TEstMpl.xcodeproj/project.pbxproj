@@ -14,6 +14,15 @@
 		A6DBDBF51C252F0A00835BFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6DBDBF41C252F0A00835BFF /* Images.xcassets */; };
 		A6DBDBF81C252F0A00835BFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6DBDBF61C252F0A00835BFF /* LaunchScreen.xib */; };
 		A6DBDC041C252F0A00835BFF /* TEstMplTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBDC031C252F0A00835BFF /* TEstMplTests.m */; };
+		A6DBDC111C252F4D00835BFF /* FourButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBDC0E1C252F4D00835BFF /* FourButtonViewController.m */; };
+		A6DBDC121C252F4D00835BFF /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBDC101C252F4D00835BFF /* SuccessViewController.m */; };
+		A6DBDC1F1C252F9C00835BFF /* libPayPalMPL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBDC141C252F9C00835BFF /* libPayPalMPL.a */; };
+		A6DBDC241C252FB300835BFF /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBDC201C252FB300835BFF /* libz.1.1.3.dylib */; };
+		A6DBDC251C252FB300835BFF /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBDC211C252FB300835BFF /* libz.1.2.5.dylib */; };
+		A6DBDC261C252FB300835BFF /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBDC221C252FB300835BFF /* libz.1.dylib */; };
+		A6DBDC271C252FB300835BFF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBDC231C252FB300835BFF /* libz.dylib */; };
+		A6DBDC2A1C252FC300835BFF /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBDC281C252FC300835BFF /* libxml2.2.dylib */; };
+		A6DBDC2B1C252FC300835BFF /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBDC291C252FC300835BFF /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,27 @@
 		A6DBDBFD1C252F0A00835BFF /* TEstMplTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEstMplTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DBDC021C252F0A00835BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6DBDC031C252F0A00835BFF /* TEstMplTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEstMplTests.m; sourceTree = "<group>"; };
+		A6DBDC0D1C252F4D00835BFF /* FourButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourButtonViewController.h; sourceTree = "<group>"; };
+		A6DBDC0E1C252F4D00835BFF /* FourButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourButtonViewController.m; sourceTree = "<group>"; };
+		A6DBDC0F1C252F4D00835BFF /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
+		A6DBDC101C252F4D00835BFF /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
+		A6DBDC141C252F9C00835BFF /* libPayPalMPL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMPL.a; sourceTree = "<group>"; };
+		A6DBDC151C252F9C00835BFF /* PayPal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPal.h; sourceTree = "<group>"; };
+		A6DBDC161C252F9C00835BFF /* PayPalAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAddress.h; sourceTree = "<group>"; };
+		A6DBDC171C252F9C00835BFF /* PayPalAdvancedPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAdvancedPayment.h; sourceTree = "<group>"; };
+		A6DBDC181C252F9C00835BFF /* PayPalAmounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAmounts.h; sourceTree = "<group>"; };
+		A6DBDC191C252F9C00835BFF /* PayPalInvoiceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalInvoiceData.h; sourceTree = "<group>"; };
+		A6DBDC1A1C252F9C00835BFF /* PayPalInvoiceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalInvoiceItem.h; sourceTree = "<group>"; };
+		A6DBDC1B1C252F9C00835BFF /* PayPalPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPayment.h; sourceTree = "<group>"; };
+		A6DBDC1C1C252F9C00835BFF /* PayPalPreapprovalDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPreapprovalDetails.h; sourceTree = "<group>"; };
+		A6DBDC1D1C252F9C00835BFF /* PayPalReceiverAmounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalReceiverAmounts.h; sourceTree = "<group>"; };
+		A6DBDC1E1C252F9C00835BFF /* PayPalReceiverPaymentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalReceiverPaymentDetails.h; sourceTree = "<group>"; };
+		A6DBDC201C252FB300835BFF /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		A6DBDC211C252FB300835BFF /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		A6DBDC221C252FB300835BFF /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = usr/lib/libz.1.dylib; sourceTree = SDKROOT; };
+		A6DBDC231C252FB300835BFF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A6DBDC281C252FC300835BFF /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		A6DBDC291C252FC300835BFF /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +77,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6DBDC2A1C252FC300835BFF /* libxml2.2.dylib in Frameworks */,
+				A6DBDC2B1C252FC300835BFF /* libxml2.dylib in Frameworks */,
+				A6DBDC241C252FB300835BFF /* libz.1.1.3.dylib in Frameworks */,
+				A6DBDC251C252FB300835BFF /* libz.1.2.5.dylib in Frameworks */,
+				A6DBDC261C252FB300835BFF /* libz.1.dylib in Frameworks */,
+				A6DBDC271C252FB300835BFF /* libz.dylib in Frameworks */,
+				A6DBDC1F1C252F9C00835BFF /* libPayPalMPL.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,12 @@
 		A6DBDBDB1C252F0A00835BFF = {
 			isa = PBXGroup;
 			children = (
+				A6DBDC281C252FC300835BFF /* libxml2.2.dylib */,
+				A6DBDC291C252FC300835BFF /* libxml2.dylib */,
+				A6DBDC201C252FB300835BFF /* libz.1.1.3.dylib */,
+				A6DBDC211C252FB300835BFF /* libz.1.2.5.dylib */,
+				A6DBDC221C252FB300835BFF /* libz.1.dylib */,
+				A6DBDC231C252FB300835BFF /* libz.dylib */,
 				A6DBDBE61C252F0A00835BFF /* TEstMpl */,
 				A6DBDC001C252F0A00835BFF /* TEstMplTests */,
 				A6DBDBE51C252F0A00835BFF /* Products */,
@@ -81,6 +124,11 @@
 		A6DBDBE61C252F0A00835BFF /* TEstMpl */ = {
 			isa = PBXGroup;
 			children = (
+				A6DBDC131C252F9C00835BFF /* Library */,
+				A6DBDC0D1C252F4D00835BFF /* FourButtonViewController.h */,
+				A6DBDC0E1C252F4D00835BFF /* FourButtonViewController.m */,
+				A6DBDC0F1C252F4D00835BFF /* SuccessViewController.h */,
+				A6DBDC101C252F4D00835BFF /* SuccessViewController.m */,
 				A6DBDBEB1C252F0A00835BFF /* AppDelegate.h */,
 				A6DBDBEC1C252F0A00835BFF /* AppDelegate.m */,
 				A6DBDBEE1C252F0A00835BFF /* ViewController.h */,
@@ -117,6 +165,24 @@
 				A6DBDC021C252F0A00835BFF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6DBDC131C252F9C00835BFF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBDC141C252F9C00835BFF /* libPayPalMPL.a */,
+				A6DBDC151C252F9C00835BFF /* PayPal.h */,
+				A6DBDC161C252F9C00835BFF /* PayPalAddress.h */,
+				A6DBDC171C252F9C00835BFF /* PayPalAdvancedPayment.h */,
+				A6DBDC181C252F9C00835BFF /* PayPalAmounts.h */,
+				A6DBDC191C252F9C00835BFF /* PayPalInvoiceData.h */,
+				A6DBDC1A1C252F9C00835BFF /* PayPalInvoiceItem.h */,
+				A6DBDC1B1C252F9C00835BFF /* PayPalPayment.h */,
+				A6DBDC1C1C252F9C00835BFF /* PayPalPreapprovalDetails.h */,
+				A6DBDC1D1C252F9C00835BFF /* PayPalReceiverAmounts.h */,
+				A6DBDC1E1C252F9C00835BFF /* PayPalReceiverPaymentDetails.h */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6DBDC111C252F4D00835BFF /* FourButtonViewController.m in Sources */,
 				A6DBDBF01C252F0A00835BFF /* ViewController.m in Sources */,
 				A6DBDBED1C252F0A00835BFF /* AppDelegate.m in Sources */,
+				A6DBDC121C252F4D00835BFF /* SuccessViewController.m in Sources */,
 				A6DBDBEA1C252F0A00835BFF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +417,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TEstMpl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TEstMpl/Library",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,6 +431,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TEstMpl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TEstMpl/Library",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
